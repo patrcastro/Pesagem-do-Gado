@@ -1,0 +1,13 @@
+Manual para instalação do software de Pesagem
+
+1-) Rodar o arquivo "SmartFarm.sql" no seu SQL Server Management Studio.
+
+2-) Alterar a string de conexão no arquivo "SqlServerConnection", que se encontra no caminho \SmartFarm\src\Connection
+
+Exemplo: Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;dataBaseName=SmartFarm;user=user;password=user1234;");
+
+3-) Abrir o projeto no Netbeans
+
+4-) Adicionar as bibliotecas existentes na pasta \SmartFarm\bibliotecas
+
+5-) Após alterar a string de conexão com o banco de dados, limpar e contruir o projeto e acessar o arquivo executável (.jar) na pasta SmartFarm/dist
